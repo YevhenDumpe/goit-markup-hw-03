@@ -315,13 +315,6 @@ font-family: 'Raleway', sans-serif;
 
 /*------------- title ---------------*/
 
-.title-list {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 24px;
-    
-  }
 
 .title-img-text {
 padding: 0px 16px;
@@ -374,11 +367,17 @@ top: 332px;
   margin-bottom: 32px;
 }
 
+.title-item {
+    width: calc((100% - 48px) / 3);
+}
+
 .title-list {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
 }
+
+
 /*------------- filters---------------*/
 .hero-list {
   margin-bottom: 72px;
