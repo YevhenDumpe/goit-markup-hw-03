@@ -43,6 +43,7 @@ address {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    outline: 2px solid red;
     }  
 
 img{
@@ -198,6 +199,11 @@ font-family: 'Raleway', sans-serif;
     color: var(--main-title-color);
     background: var(--color-ocean);
 }
+
+.hero-none {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
  
 .hero-btn-list {
     ont-family: var(--paragraph-title-font-family);
@@ -291,6 +297,7 @@ font-family: 'Raleway', sans-serif;
 .team-text {
     padding-top: 32px;
     padding-bottom: 32px;
+    background-color: var(--main-title-color);
 }
 
 .team-item-titel {
@@ -300,7 +307,7 @@ font-family: 'Raleway', sans-serif;
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--color-grey);
-        margin: 32px 0 8px 0;
+        margin-bottom: 8px;
 }
 
 .team-item-text {font-weight: 400;
@@ -316,11 +323,14 @@ font-family: 'Raleway', sans-serif;
 
 
 .title-img-text {
-padding: 0px 16px;
-width: 360px;
-height: 56px;
-left: 0px;
-top: 332px;
+    background-color: var(--main-title-color);
+    border-left: 1px solid var(--color-cornflower); 
+    border-right: 1px solid var(--color-cornflower); 
+    border-bottom: 1px solid var(--color-cornflower);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .title-img {
@@ -336,13 +346,11 @@ top: 332px;
       url(4074365.jpg);
     background-blend-mode: soft-light, normal;
     mix-blend-mode: normal;
-    margin-bottom: 32px;
-    
-  }
+    }
   
 
 .portfolio-container {
-    padding: 96px 0px 120px;
+    
   } 
 
 .title-about {
@@ -351,7 +359,6 @@ top: 332px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-grey);
-    margin-left: 16px;
     margin-bottom: 8px;
     
 }
@@ -362,7 +369,6 @@ top: 332px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-title-color);
-    margin-left: 16px;
   margin-bottom: 32px;
 }
 
@@ -391,7 +397,7 @@ top: 332px;
 /*------------- footer ---------------*/
 
 .footer-container {
-
+    max-width: 264px;
 }
 
 
@@ -405,17 +411,12 @@ top: 332px;
 }
 
 .footer-text {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-cornflower);
     margin-top: 16px;
-    height: 72px;
-    left: 156px;
-    top: 2418px;
-    max-width: 264px;
 }
 
 .footer {
