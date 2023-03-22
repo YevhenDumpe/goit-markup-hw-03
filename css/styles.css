@@ -158,7 +158,9 @@ font-family: 'Raleway', sans-serif;
     gap: 24px;
 }  
 
-.solutions-item {}
+.solutions-item {
+    width: calc((100%-72px) / 4);
+}
 
 
     
@@ -368,7 +370,6 @@ font-family: 'Raleway', sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-title-color);
-  margin-bottom: 32px;
 }
 
 .title-item {
